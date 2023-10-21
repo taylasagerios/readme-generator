@@ -57,7 +57,7 @@ inquirer
 
     })
 
-function genReadme(answers){
+function genReadme(answers) {
     console.log(answers)
     var readmeTxt = ""
     readmeTxt += `# Title
@@ -82,6 +82,6 @@ please contact me at ${answers.email}
     
 
     `
-return readmeTxt
+    return readmeTxt
 }
 // THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
